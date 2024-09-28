@@ -1,3 +1,6 @@
+GIT COMMANDS :- 
+git clone , cd , ls , git status , git add , git commit etc.....
+
 --> After creating Repository on Github :-
 
 1. Use git clone command in terminal to clone the repository/folder in VS code.
@@ -15,3 +18,7 @@
    after it being created.
    syntax : git add "file_name"
    syntax :( git add . ) -> (This syntax is used to add all the files of folder)
+6. Git commit : It is the record of changes .
+   You have to must use git commit command after using git add command.
+   git command saves or records the changes after you adds the file .
+   syntax : git commit -m "some message" .
