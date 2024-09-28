@@ -1,0 +1,17 @@
+--> After creating Repository on Github :-
+
+1. Use git clone command in terminal to clone the repository/folder in VS code.
+   syntax : git clone "repository_link"
+2. Use (change directory) cd command in terminal to enter in sub folder of your working directory.
+   syntax : cd "sub_folder_name"  
+3. You can use ls command to see list of file in your working directory.
+4. Then you can use git status command to see status of your working directory files .
+   There are four types of status : 
+   i.untracked : new files that git dosen't yet track
+   ii. modified : changed
+   iii. staged : file is ready to be commited
+   iv. unmodified : unchanged  
+5. You can use git add command to add new file or to add file after changing its content in working directory.
+   after it being created.
+   syntax : git add "file_name"
+   syntax :( git add . ) -> (This syntax is used to add all the files of folder)
